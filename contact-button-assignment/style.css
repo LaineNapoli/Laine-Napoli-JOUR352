@@ -1,0 +1,29 @@
+body {
+    background-color:#FFDAB9;
+    text-align:center;
+}
+
+button {
+    background-color:#F4978E;
+    color:white;
+    font-family:'Open Sans', Sans-Serif;
+    width:185px;
+    padding:10px;
+    margin-top:50px;
+    border-radius:8px;
+    border:none;
+}
+
+button:hover {
+    background-color:#F08080;
+}
+
+h1{
+    font-family: 'Raleway', Sans-Serif;
+    font-weight:lighter;
+}
+
+h2 {
+    font-family: 'Open Sans', Sans-Serif;
+    font-weight:normal;
+}
