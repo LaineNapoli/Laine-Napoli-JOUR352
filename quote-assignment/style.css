@@ -1,0 +1,33 @@
+/*
+MY COLOR PALETTE
+Orange - #EB7347
+Orange/Pink - #EE7A64
+Coral - #F18E7E
+Light Pink - #F8B0A0
+Pale Pink - #FBC4AB
+Tan Pink - #FFDAB9
+Sage - #C8D29D
+Green - #8A9B46
+*/
+
+body {
+    background-color:#FFDAB9;
+    text-align:center;
+}
+
+div {
+    width: 300px;
+    height: 300px;
+    text-align:center;
+    font-size:44px;
+    font-family: 'Courgette', cursive;
+    color:#EE7A64;
+    border:3px solid #C8D29D;
+    padding:60px 30px 10px 30px;
+    margin:auto;
+}
+
+#highlight {
+    color:#8A9B46;
+    font-weight:bold;
+}
