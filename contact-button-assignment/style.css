@@ -4,9 +4,10 @@ body {
 }
 
 button {
-    background-color:#F4978E;
-    color:white;
+    background-color:#C8D29D;
+    color:#F18E7E;
     font-family:'Open Sans', Sans-Serif;
+    font-weight:normal;
     width:185px;
     padding:10px;
     margin-top:50px;
@@ -15,15 +16,17 @@ button {
 }
 
 button:hover {
-    background-color:#F08080;
+    background-color:#8A9B46;
 }
 
 h1{
     font-family: 'Raleway', Sans-Serif;
-    font-weight:lighter;
+    font-weight:bold;
+    color:#EB7347;
 }
 
 h2 {
     font-family: 'Open Sans', Sans-Serif;
     font-weight:normal;
+    color:#EE7A64;
 }
