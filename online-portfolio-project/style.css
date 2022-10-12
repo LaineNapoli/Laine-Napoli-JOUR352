@@ -1,1 +1,14 @@
+#footer {
+    background-color: blue;
+    color: white;
+    padding: 20px 0px 20px 20px;
+}
 
+h1 {
+    font-size:80px;
+    font-family:arial;
+}
+
+#title {
+    font-weight:bold;
+}
