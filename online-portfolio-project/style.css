@@ -1,14 +1,154 @@
-#footer {
-    background-color: blue;
-    color: white;
-    padding: 20px 0px 20px 20px;
+ /*Backgroud color?*/
+/*Topper background?*/
+/*Squares on side of topper?*/
+
+/*Topper Start*/
+#headshot {
+    width:300px;
+    padding:0px;
+    margin:20px 0px 20px 40px;
+    border-radius: 500px;
+    /*Need to change link*/ 
 }
 
+#button {
+    background-color:#DC7A52;
+    color:white;
+    border:0px;
+    border-radius: 10px;
+    padding:10px 30px 10px 30px;
+    margin:10px;
+}
+/*Topper End*/
+
+/*Nav Start*/
+#nav {
+    background-color:#F1C6AE;
+    color: white;
+    text-transform:capitalize;
+    text-transform:bold;
+    padding: 20px 0px 20px 20px;
+    border: none;
+}
+
+nav a:hover {
+     color:#DC7A52;
+}
+/*Nav End*/
+
+/*Headers Start*/
 h1 {
     font-size:80px;
     font-family:arial;
+    color:white;
+    /*How do I upload google fonts?*/
+    /*How do I add color line?*/
 }
 
-#title {
-    font-weight:bold;
+h2 {
+    font-size:60px;
+    font-family:arial;
+    color:white;
+    /*Change font*/
 }
+
+h3 {
+    font-size:60px;
+    font-family:arial;
+    color:white;
+    text-transform:uppercase;
+    text-transform:bold;
+    /*Change font*/
+}
+
+h4 {
+    font-size:50px;
+    font-family:arial;
+    color:#E39382;
+    /*Change font*/
+}
+/*Headers End*/
+
+/*Experience Start*/
+#title {
+    font-size:50px;
+    font-family:arial;
+    color: white;
+    text-transform:uppercase;
+    font-weight:bold;  
+}
+
+#company {
+    font-size:50px;
+    font-family:arial;
+    color: white;
+    text-transform:italic;
+    font-weight:bold;  
+}
+
+#date {
+    font-size:50px;
+    font-family:arial;
+    color: white;
+    font-weight:bold;  
+}
+
+#description {
+    font-size:30px;
+    font-family:arial;
+    color: #E39382; 
+}
+/*Experience End*/
+
+/*Education Start*/
+#university {
+    font-size:50px;
+    font-family:arial;
+    color: white;
+    text-transform:uppercase;
+    font-weight:bold;  
+}
+
+#degree {
+    font-size:50px;
+    font-family:arial;
+    color: white;
+    text-transform:italic;
+    font-weight:bold;  
+}
+
+#date {
+    font-size:50px;
+    font-family:arial;
+    color: white;
+    font-weight:bold;
+/*Education End*/
+
+/*Footer Start*/
+#footer {
+    background-color:#F1C6AE;
+    color: white;
+    text-transform:italic;
+    text-transform:bold;
+    padding: 20px 0px 20px 20px;
+    border: none;
+    /*not showing up*/
+}
+/*Footer End*/
+
+/*Media Query Start*/
+@media {
+    /*Phone styles here*/
+    /*This media query targets any screen smaller than 576px wide (see below)*/
+}
+
+@media (min-width: 576px) {
+    /*Tablet-only styles here*/
+    /*This media query targets any screen that is at least 576px wide (but smaller than 992px wide (see below)*/
+}
+
+@media (min-width: 992px) {
+    /*Desktop-only styles here*/
+    /*This media query targets any screen that is at least 992px wide*/
+}
+/*Media Query End*/
