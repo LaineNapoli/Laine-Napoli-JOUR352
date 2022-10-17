@@ -1,14 +1,15 @@
- /*Backgroud color?*/
-/*Topper background?*/
 /*Squares on side of topper?*/
 
 /*Topper Start*/
+#topper {
+    background-color:aqua; 
+}
+
 #headshot {
     width:300px;
     padding:0px;
     margin:20px 0px 20px 40px;
     border-radius: 500px;
-    /*Need to change link*/ 
 }
 
 #button {
@@ -22,7 +23,7 @@
 /*Topper End*/
 
 /*Nav Start*/
-#nav {
+.nav {
     background-color:#F1C6AE;
     color: white;
     text-transform:capitalize;
@@ -31,12 +32,15 @@
     border: none;
 }
 
-nav a:hover {
+.nav a:hover {
      color:#DC7A52;
 }
 /*Nav End*/
 
 /*Headers Start*/
+#body {
+    background-color:antiquewhite;
+}
 h1 {
     font-size:80px;
     font-family:arial;
