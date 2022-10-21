@@ -1,33 +1,57 @@
-/*Squares on side of topper?*/
-
 /*Topper Start*/
 #topper {
-    background-color:aqua; 
+    background-color:#EDB3A4; 
 }
+
+#squares {
+    padding: 0px 0px 0px 0px;
+}
+
+.bgcolor1 {
+    background-color:#DC7A52;
+    width:100px;
+    margin: 0px 0px 0px 0px;
+    height: 50%;
+}
+
+.bgcolor2 {
+    background-color:#E39382;
+    width:100px;
+    margin: 0px 0px 0px 0px;
+    height: 50%;
+}
+    /*not showing up*/
+
 
 #headshot {
     width:300px;
     padding:0px;
     margin:20px 0px 20px 40px;
-    border-radius: 500px;
+    border-radius:200px;
 }
 
 #button {
-    background-color:#DC7A52;
-    color:white;
+    background-color:#DE806A;
+    color:black;
+    font-family:sans-serif;
     border:0px;
     border-radius: 10px;
     padding:10px 30px 10px 30px;
     margin:10px;
 }
+
+.button a:hover {
+     color:#DC7A52;
+}
+/*Links?*/
 /*Topper End*/
 
 /*Nav Start*/
 .nav {
     background-color:#F1C6AE;
-    color: white;
+    color:Black;
+    font-weight:normal;
     text-transform:capitalize;
-    text-transform:bold;
     padding: 20px 0px 20px 20px;
     border: none;
 }
@@ -35,112 +59,137 @@
 .nav a:hover {
      color:#DC7A52;
 }
+/*Links?*/
 /*Nav End*/
 
-/*Headers Start*/
+/*Body Start*/
 #body {
-    background-color:antiquewhite;
+    background-color:#F9DBBD;
 }
+    /*why is it not showing up?*/
+/*Body End*/
+
+/*Headers Start*/
+#head {
+    Font-Family: 'Raleway', Sans-Serif;
+    Font-Size: 44px;
+    Font-Family: 'Open Sans', Sans-Serif;
+    Font-Size: 15px;
+}
+
 h1 {
     font-size:80px;
-    font-family:arial;
+    font-family:'Raleway';
+    font-weight:bold;
     color:white;
-    /*How do I upload google fonts?*/
-    /*How do I add color line?*/
+    text-align:center;
 }
 
 h2 {
     font-size:60px;
-    font-family:arial;
+    font-family:Sans-Serif;
+    font-weight:bold;
     color:white;
-    /*Change font*/
+    text-align:center;
 }
 
 h3 {
     font-size:60px;
-    font-family:arial;
+    font-family:'Raleway';
     color:white;
     text-transform:uppercase;
-    text-transform:bold;
-    /*Change font*/
-}
-
-h4 {
-    font-size:50px;
-    font-family:arial;
-    color:#E39382;
-    /*Change font*/
+    font-weight:bold;
+    text-align:left;
 }
 /*Headers End*/
 
 /*Experience Start*/
+    /*How do I add color line after heading?*/
 #title {
-    font-size:50px;
-    font-family:arial;
-    color: white;
+    font-size:40px;
+    font-family:Sans-Serif;
+    color:black;
     text-transform:uppercase;
-    font-weight:bold;  
+    font-weight:bold; 
+    text-align:left;
 }
 
 #company {
-    font-size:50px;
-    font-family:arial;
-    color: white;
-    text-transform:italic;
-    font-weight:bold;  
+    font-size:40px;
+    font-family:Sans-Serif;
+    color:black;
+    /*Italic?*/
+    font-weight:bold; 
+    text-align:left;
 }
 
 #date {
-    font-size:50px;
-    font-family:arial;
-    color: white;
-    font-weight:bold;  
+    font-size:40px;
+    font-family:Sans-Serif;
+    color:black;
+    font-weight:bold;
+    text-align:left;
 }
 
 #description {
     font-size:30px;
-    font-family:arial;
-    color: #E39382; 
+    font-family:'Open Sans';
+    color:#E39382; 
+    font-weight:normal;
+    text-align:right
 }
+    /*Why is it not showing up?*/
 /*Experience End*/
 
+/*Skills Start*/
+h4 {
+    font-size:30px;
+    font-family:'Open Sans';
+    color:#E39382;
+}
+        /*Columns of 2 skils across the page*/
+        /*Should I change to an id?*/
+/*Skills End*/
+
 /*Education Start*/
-#university {
-    font-size:50px;
-    font-family:arial;
-    color: white;
+#degree {
+    font-size:40px;
+    font-family:Sans-Serif;
+    color:black;
     text-transform:uppercase;
-    font-weight:bold;  
+    font-weight:bold; 
 }
 
-#degree {
-    font-size:50px;
-    font-family:arial;
-    color: white;
-    text-transform:italic;
+#university {
+    font-size:40px;
+    font-family:Sans-Serif;
+    color:black;
+    text-decoration:italic;
     font-weight:bold;  
 }
 
 #date {
-    font-size:50px;
-    font-family:arial;
-    color: white;
-    font-weight:bold;
+    font-size:40px;
+    font-family:Sans-Serif;
+    color:black;
+    font-weight:bold; 
+}
 /*Education End*/
 
 /*Footer Start*/
 #footer {
     background-color:#F1C6AE;
-    color: white;
+    font-family:'Raleway';
+    color:black;
     text-transform:italic;
     text-transform:bold;
     padding: 20px 0px 20px 20px;
     border: none;
-    /*not showing up*/
-}
+    }
 /*Footer End*/
 
 /*Media Query Start*/
+    /*how does this work?*/
 @media {
     /*Phone styles here*/
     /*This media query targets any screen smaller than 576px wide (see below)*/
