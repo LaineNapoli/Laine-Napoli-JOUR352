@@ -1,10 +1,20 @@
-/*Topper Start*/
+
+
+
+
+
+
+/*Media Query Start*/
+@media {
+    /*Phone styles here*/
+    /*Topper Start*/
 #topper {
     background-color:#EDB3A4; 
 }
 
 #squares {
     padding: 0px 0px 0px 0px;
+    display:none;
 }
 
 .bgcolor1 {
@@ -20,7 +30,6 @@
     margin: 0px 0px 0px 0px;
     height: 50%;
 }
-    /*not showing up*/
 
 
 #headshot {
@@ -71,10 +80,8 @@
 
 /*Headers Start*/
 #head {
-    Font-Family: 'Raleway', Sans-Serif;
+    Font-Family: 'Raleway';
     Font-Size: 44px;
-    Font-Family: 'Open Sans', Sans-Serif;
-    Font-Size: 15px;
 }
 
 h1 {
@@ -187,17 +194,16 @@ h4 {
     border: none;
     }
 /*Footer End*/
-
-/*Media Query Start*/
-    /*how does this work?*/
-@media {
-    /*Phone styles here*/
     /*This media query targets any screen smaller than 576px wide (see below)*/
 }
 
 @media (min-width: 576px) {
     /*Tablet-only styles here*/
     /*This media query targets any screen that is at least 576px wide (but smaller than 992px wide (see below)*/
+    #squares {
+    padding: 0px 0px 0px 0px;
+    display:block;
+}
 }
 
 @media (min-width: 992px) {
