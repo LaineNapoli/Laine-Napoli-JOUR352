@@ -1,9 +1,3 @@
-
-
-
-
-
-
 /*Media Query Start*/
 @media {
     /*Phone styles here*/
@@ -41,46 +35,43 @@
 
 #button {
     background-color:#DE806A;
-    color:black;
+    color:white;
     font-family:sans-serif;
     border:0px;
     border-radius: 10px;
     padding:10px 30px 10px 30px;
-    margin:10px;
+    margin: 20px;
 }
 
 .button a:hover {
      color:#DC7A52;
 }
-/*Links?*/
 /*Topper End*/
 
 /*Nav Start*/
 .nav {
     background-color:#F1C6AE;
-    color:Black;
-    font-weight:normal;
-    text-transform:capitalize;
     padding: 20px 0px 20px 20px;
     border: none;
+    color:white;
+    font-weight:normal;
+    text-transform:capitalize; 
 }
-
+    
 .nav a:hover {
      color:#DC7A52;
 }
-/*Links?*/
 /*Nav End*/
 
 /*Body Start*/
 #body {
     background-color:#F9DBBD;
 }
-    /*why is it not showing up?*/
 /*Body End*/
 
 /*Headers Start*/
-#head {
-    Font-Family: 'Raleway';
+#Head {
+    Font-Family:'Raleway';
     Font-Size: 44px;
 }
 
@@ -111,75 +102,74 @@ h3 {
 /*Headers End*/
 
 /*Experience Start*/
-    /*How do I add color line after heading?*/
-#title {
-    font-size:40px;
+#Title {
+    font-size:20px;
     font-family:Sans-Serif;
-    color:black;
+    color:white;
     text-transform:uppercase;
-    font-weight:bold; 
-    text-align:left;
-}
-
-#company {
-    font-size:40px;
-    font-family:Sans-Serif;
-    color:black;
-    /*Italic?*/
-    font-weight:bold; 
-    text-align:left;
-}
-
-#date {
-    font-size:40px;
-    font-family:Sans-Serif;
-    color:black;
     font-weight:bold;
     text-align:left;
 }
 
-#description {
-    font-size:30px;
+#Company {
+    font-size:20px;
+    font-family:Sans-Serif;
+    color:white;
+    font-weight:normal; 
+    font-style:italic;
+    text-align:left;
+}
+
+#Date {
+    font-size:20px;
+    font-family:Sans-Serif;
+    color:white;
+    font-weight:normal;
+    text-align:left;
+}
+
+#Description {
+    font-size:20px;
     font-family:'Open Sans';
-    color:#E39382; 
+    color:#DE806A; 
     font-weight:normal;
     text-align:right
 }
-    /*Why is it not showing up?*/
 /*Experience End*/
 
 /*Skills Start*/
-h4 {
-    font-size:30px;
+#skills {
+    font-size:20px;
     font-family:'Open Sans';
-    color:#E39382;
+    font-weight:normal;
+    color:#DE806A;
 }
-        /*Columns of 2 skils across the page*/
-        /*Should I change to an id?*/
 /*Skills End*/
 
 /*Education Start*/
-#degree {
-    font-size:40px;
+#Degree {
+    font-size:20px;
     font-family:Sans-Serif;
-    color:black;
-    text-transform:uppercase;
+    color:white;
     font-weight:bold; 
+    text-align:left;
 }
 
-#university {
-    font-size:40px;
-    font-family:Sans-Serif;
-    color:black;
-    text-decoration:italic;
-    font-weight:bold;  
+#University {
+    font-size:20px;
+    font-family:'Open Sans';
+    font-weight:normal;
+    color:#DE806A; 
+    font-style:italic;
+    text-align:left;
 }
 
 #date {
-    font-size:40px;
+    font-size:20px;
     font-family:Sans-Serif;
-    color:black;
-    font-weight:bold; 
+    color:#DE806A;
+    font-weight:normal;
+    text-align:left;
 }
 /*Education End*/
 
@@ -187,19 +177,17 @@ h4 {
 #footer {
     background-color:#F1C6AE;
     font-family:'Raleway';
-    color:black;
-    text-transform:italic;
+    color:white;
+    font-style:italic;
     text-transform:bold;
     padding: 20px 0px 20px 20px;
     border: none;
     }
 /*Footer End*/
-    /*This media query targets any screen smaller than 576px wide (see below)*/
 }
 
 @media (min-width: 576px) {
     /*Tablet-only styles here*/
-    /*This media query targets any screen that is at least 576px wide (but smaller than 992px wide (see below)*/
     #squares {
     padding: 0px 0px 0px 0px;
     display:block;
@@ -208,6 +196,5 @@ h4 {
 
 @media (min-width: 992px) {
     /*Desktop-only styles here*/
-    /*This media query targets any screen that is at least 992px wide*/
 }
 /*Media Query End*/
