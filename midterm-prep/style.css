@@ -1,0 +1,62 @@
+@media {
+
+#headshot {
+    width: 300px;
+    float:none;
+    margin: 0px 20px 0px 0px;
+}
+/*step 1*/
+/*step 5 (float)*/
+/*step 6 (margin)*/
+
+body {
+    font-family:Arial, san-serif;
+}
+/*step 2*/
+
+#contact a {
+    color:black;
+    font-weight:bold;
+    font-size:20px;
+}
+
+#contact a:hover {
+    color:red;
+}
+/*step 3*/
+
+#info {
+    width:100%;
+    margin:auto;
+}
+/*step 4*/
+
+h1{
+    margin: 0px 0px 40px 0px;
+}
+/*step 6 (margin)*/
+
+#footer {
+ position:fixed; 
+ bottom:0px;
+ background-color:grey;
+ width:100%;
+ padding:20px 0px 20px 20px;
+}
+/*step 8*/
+    
+}
+/*step 7 (media query)*/
+
+@media (min-width:576px) {
+
+#headshot {
+    float:left;
+}
+
+#info {
+    width:700px;
+}
+    
+}
+/*step 7 (media query)*/
