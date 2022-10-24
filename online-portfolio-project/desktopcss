@@ -1,3 +1,4 @@
+/*Media Query Start*/
 @media {
     /*Phone styles here*/
     /*Topper Start*/
@@ -24,10 +25,11 @@
     height: 50%;
 }
 
+
 #headshot {
-    width:100%;
+    width:300px;
     padding:0px;
-    margin:20px 0px 20px 0px;
+    margin:20px 0px 20px 40px;
     border-radius:200px;
 }
 
@@ -49,9 +51,9 @@
 /*Topper End*/
 
 /*Nav Start*/
-.nav {
+.nav a {
     background-color:#F1C6AE;
-    padding: 20px 10px 20px 20px;
+    padding: 20px 0px 20px 20px; 
     border:none;
     color:white;
     text-transform:uppercase;
@@ -78,23 +80,23 @@
 }
 
 h1 {
-    font-size:40px;
+    font-size:80px;
     font-family:'Raleway';
     font-weight:bold;
     color:white;
-    text-align:center;
+    text-align:left;
 }
 
 h2 {
-    font-size:20px;
+    font-size:60px;
     font-family:'Raleway';
     font-weight:bold;
     color:white;
-    text-align:center;
+    text-align:left;
 }
 
 h3 {
-    font-size:20px;
+    font-size:60px;
     font-family:'Raleway';
     color:white;
     text-transform:uppercase;
@@ -194,71 +196,10 @@ h3 {
     padding: 0px 0px 0px 0px;
     display:block;
     }
-    
-    h1 {
-    font-size:60px;
-    font-family:'Raleway';
-    font-weight:bold;
-    color:white;
-    text-align:center;
-    }
 
-    h2 {
-    font-size:40px;
-    font-family:'Raleway';
-    font-weight:bold;
-    color:white;
-    text-align:center;
-    }
-
-    h3 {
-    font-size:40px;
-    font-family:'Raleway';
-    color:white;
-    text-transform:uppercase;
-    font-weight:bold;
-    text-align:left;
-    }
-    
-    #headshot {
-    width:100%;
-    padding:0px;
-    margin: 20px 0px 20px 0px;
-    border-radius:200px;
-}
 }
 
 @media (min-width: 992px) {
     /*Desktop-only styles here*/
-h1 {
-    font-size:80px;
-    font-family:'Raleway';
-    font-weight:bold;
-    color:white;
-    text-align:left;
 }
-
-h2 {
-    font-size:60px;
-    font-family:'Raleway';
-    font-weight:bold;
-    color:white;
-    text-align:left;
-}
-
-h3 {
-    font-size:60px;
-    font-family:'Raleway';
-    color:white;
-    text-transform:uppercase;
-    font-weight:bold;
-    text-align:left;
-    }
-    
-#headshot {
-    width:300px;
-    padding:0px;
-    margin:20px 0px 20px 40px;
-    border-radius:200px;
-}
-}
+/*Media Query End*/
