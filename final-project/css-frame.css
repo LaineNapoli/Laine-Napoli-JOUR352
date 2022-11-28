@@ -1,6 +1,9 @@
 @media {
     /*Phone styles here*/
     /*This media query targets any screen smaller than 576px wide (see below)*/
+    .leadimage {
+        width:100%;
+    }
 }
 
 @media (min-width: 576px) {
