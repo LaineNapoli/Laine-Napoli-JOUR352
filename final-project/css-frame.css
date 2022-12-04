@@ -4,6 +4,92 @@
     .leadimage {
         width:100%;
     }
+    
+    #caption {
+        font-family:"Arial";
+        font-size:12px;
+        font-weight:lighter; 
+        color:darkgrey;
+    }
+    
+    h1 {
+        font-family:"Raleway";
+        font-size:40px;
+        font-weight:bolder;
+        color:black;
+        text-align:center;
+    }
+    
+    h2 {
+        font-family:"Arial";
+        font-size:30px;
+        font-weight:bold;
+        color:#741476;
+        text-align:center;
+        text-transform:capitalize;
+    }
+    
+    h3 {
+        font-family:"Arial";
+        font-size:20px;
+        font-weight:normal;
+        color:darkgrey;
+        text-align:center;
+    }
+    
+    #sectionheader {
+        font-family:"Arial";
+        font-size:18px;
+        font-weight:bold;
+        color:#741476;
+        text-align:left;
+    }
+    
+    #bodytext {
+        font-family:"Arial";
+        font-size:16px;
+        font-weight:normal;
+        color:black;
+    }
+    
+    .quoteline-top {
+        width:100%;
+        color:#741476;
+        align-content:center;
+    }
+    
+    .quotetext {
+        font-family:"Raleway";
+        font-size:18px;
+        font-weight:bolder;
+        color:black;
+        text-align:center;
+    }
+    
+    .quoteattribution{
+        font-family:"Arial";
+        font-size:18px;
+        font-weight:bold;
+        color:darkgrey;
+        text-align:center;
+    }
+    
+     .quoteline-bottom {
+        width:100%;
+        color:#741476;
+        align-content:center;
+    }
+    
+     .quotemark {
+        font-size:100px;
+        float:left;
+        color:#741476
+    }
+    
+     .bodyimage {
+        width:100%;
+        align-content:center;
+    }
 }
 
 @media (min-width: 576px) {
