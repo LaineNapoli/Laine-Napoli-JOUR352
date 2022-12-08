@@ -83,7 +83,9 @@
      .quotemark {
         font-size:100px;
         float:left;
-        color:#741476
+        color:#741476;
+        padding: 0px 10px 0px 0px;
+        line-height:.8;
     }
     
      .bodyimage {
