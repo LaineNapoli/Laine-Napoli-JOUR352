@@ -1,28 +1,26 @@
 @media {
-    /*Phone styles here*/
-    /*This media query targets any screen smaller than 576px wide (see below)*/
     .leadimage {
         width:100%;
     }
     
-    #caption {
-        font-family:"Arial";
-        font-size:12px;
+    .caption {
+        font-family:'Muli', Sans-Serif;
+        font-size:10px;
         font-weight:lighter; 
         color:darkgrey;
     }
     
     h1 {
-        font-family:"Raleway";
-        font-size:40px;
+        font-family: 'Merriweather', Serif;
+        font-size: 16px;
         font-weight:bolder;
         color:black;
         text-align:center;
     }
     
     h2 {
-        font-family:"Arial";
-        font-size:30px;
+        font-family:'Muli', Sans-Serif;
+        font-size:16px;
         font-weight:bold;
         color:#741476;
         text-align:center;
@@ -30,24 +28,24 @@
     }
     
     h3 {
-        font-family:"Arial";
-        font-size:20px;
+        font-family:'Muli', Sans-Serif;
+        font-size:16px;
         font-weight:normal;
         color:darkgrey;
         text-align:center;
     }
     
-    #sectionheader {
-        font-family:"Arial";
-        font-size:18px;
+    h4{
+        font-family:'Merriweather', Serif;
+        font-size:16px;
         font-weight:bold;
         color:#741476;
-        text-align:left;
+        text-align:left;  
     }
     
-    #bodytext {
-        font-family:"Arial";
-        font-size:16px;
+    .bodytext {
+        font-family:'Muli', Sans-Serif;
+        font-size:14px;
         font-weight:normal;
         color:black;
     }
@@ -59,18 +57,18 @@
     }
     
     .quotetext {
-        font-family:"Raleway";
-        font-size:18px;
+        font-family:'Merriweather', Serif;
+        font-size:16px;
         font-weight:bolder;
         color:black;
         text-align:center;
     }
     
     .quoteattribution{
-        font-family:"Arial";
-        font-size:18px;
+        font-family:'Merriweather', Serif;
+        font-size:16px;
         font-weight:bold;
-        color:darkgrey;
+        color:#741476;
         text-align:center;
     }
     
@@ -85,7 +83,7 @@
         float:left;
         color:#741476;
         padding: 0px 10px 0px 0px;
-        line-height:.8;
+        line-height:.6;
     }
     
      .bodyimage {
@@ -95,16 +93,111 @@
 }
 
 @media (min-width: 576px) {
-    /*Tablet-only styles here*/
-    /*This media query targets any screen that is at least 576px wide (but smaller than 992px wide (see below)*/
+    .caption {
+        font-size:10px;
+    }
+    
+    h1 {
+        font-size: 30px;
+    }
+    
+    h2 {
+        font-size:20px;
+    }
+    
+    h3 {
+        font-size:20px;
+    }
+    
+    h4{
+        font-size:20px;  
+    }
+    
+    .bodytext {
+        font-size:15px;
+    }
+    
+    
+    .quotetext {
+        font-size:20px;
+    }
+    
+    .quoteattribution{
+        font-size:20px;
+    }
+    
+     .quotemark {
+        line-height:.8;
+    }
+
 }
 
 @media (min-width: 992px) {
-    /*Desktop-only styles here*/
-    /*This media query targets any screen that is at least 992px wide*/
+    .caption {
+        font-size:12px;
+    }
+    
+    h1 {
+        font-size: 40px;
+    }
+    
+    h2 {
+        font-size:30px;
+    }
+    
+    h3 {
+        font-size:20px;
+    }
+    
+    h4{
+        font-size:20px;  
+    }
+    
+    .bodytext {
+        font-size:16px;
+    }s
+    
+    .quotetext {
+        font-size:20px;
+    }
+    
+    .quoteattribution{
+        font-size:20px;
+    }
+    
 }
 
 @media (min-width: 1200px) {
-    /*Large-Desktop-only styles here*/
-    /*This media query targets any screen that is at least 1200px wide*/
+     .caption {
+        font-size:14px;
+    }
+    
+    h1 {
+        font-size: 45px;
+    }
+    
+    h2 {
+        font-size:35px;
+    }
+    
+    h3 {
+        font-size:25px;
+    }
+    
+    h4{
+        font-size:25px;  
+    }
+    
+    .bodytext {
+        font-size:20px;
+    }s
+    
+    .quotetext {
+        font-size:25px;
+    }
+    
+    .quoteattribution{
+        font-size:25px;
+    }
+    
 }
